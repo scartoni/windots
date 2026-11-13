@@ -197,6 +197,6 @@ Catppuccin Mocha, lavender as the main accent. The hex values used across the co
 - [Windhawk](https://windhawk.net/) and its mod authors — the system-level tweaks
 - [@MrDLingters](https://github.com/MrDLingters) — parts of this setup were taken from / inspired by his YASB themes and Windows 11 customization work
 - [@SleepyCatHey](https://github.com/SleepyCatHey) — parts of this setup (themes and configs) were taken from / inspired by his [Ultimate-Win11-Setup](https://github.com/SleepyCatHey/Ultimate-Win11-Setup)
-- [@orangci](https://github.com/orangci) — most of the wallpapers come from his [walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) collection (collected from many artists across the internet)
+- [@orangci](https://github.com/orangci) — most of the wallpapers come from his [walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) collection
 
 **@scartoni**
