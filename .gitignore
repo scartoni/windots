@@ -1,0 +1,13 @@
+# Logs
+*.log
+*.sock
+
+# Windows junk
+desktop.ini
+Thumbs.db
+
+# Backups / temp
+*.bak
+*.bbkp
+*.bkp
+*.tmp
