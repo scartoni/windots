@@ -45,7 +45,7 @@ My Windows 11 rice built around [Catppuccin Mocha](https://github.com/catppuccin
 | Colorscheme | [Catppuccin Mocha](https://catppuccin.com) (lavender accent) |
 | Browser | [Zen Browser](https://zen-browser.app/) |
 | Music Player | [Sonora](https://github.com/sonorahq/sonora) |
-| Messaging | [Discord](https://discord.com/) + [AyuGram](https://github.com/AyuGram/AyuGram4A) |
+| Messaging | [Discord](https://discord.com/) via [Dorion](https://github.com/SpikeHD/Dorion) + [AyuGram](https://github.com/AyuGram/AyuGram4A) |
 | YouTube | [Flow](https://github.com/n-ce/Flow) |
 | Font | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/) |
 | Wallpapers | [`Catppuccin wallpapers/`](Catppuccin%20wallpapers/) — full collection used by the bar's gallery widget |
@@ -148,6 +148,21 @@ Context menu replacement.
 - Install [Nilesoft Shell](https://nilesoft.org/)
 - Replace `shell.nss` in the Nilesoft install folder with [`nilesoft/shell.nss`](nilesoft/shell.nss)
 - Restart explorer
+
+## 💬 Discord (Dorion)
+
+Dorion is a lightweight alternative Discord client with native theme support.
+
+> [!NOTE]
+> The theme is just the official [Catppuccin Discord theme](https://github.com/catppuccin/discord) — nothing custom here.
+
+- Install [Dorion](https://github.com/SpikeHD/Dorion)
+- Copy [`dorion/config.json`](dorion/config.json) over the one next to `Dorion.exe` (enables the Vencord + Shelter mods and all my settings)
+- Copy [`dorion/themes/mocha.theme.css`](dorion/themes/mocha.theme.css) to the `themes/` folder and pick it in Dorion's settings
+
+## ✈️ AyuGram
+
+Telegram client with extra features — no config to import here, the look is built into the client. Just grab it from [AyuGram's releases](https://github.com/AyuGram/AyuGram4A).
 
 ## 🎨 Color palette
 
