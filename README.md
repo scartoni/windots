@@ -1,6 +1,6 @@
 # 🌸 Windots
 
-[![Windots preview](14-Screenshots/screenshot-1-desktop.png)](14-Screenshots/screenshot-1-desktop.png)
+[![Windots preview](Screenshots/screenshot-1-desktop.png)](Screenshots/screenshot-1-desktop.png)
 
 ### My personal Windows rice & dotfiles
 
@@ -16,25 +16,25 @@ The setup combines a dragon/samurai dark wallpaper, tiling window management wit
 
 ## 🖼️ Screenshots
 
-[![Desktop](14-Screenshots/screenshot-1-desktop.png)](14-Screenshots/screenshot-1-desktop.png)
-[![Sonora & Fastfetch](14-Screenshots/screenshot-2-sonora-fastfetch.png)](14-Screenshots/screenshot-2-sonora-fastfetch.png)
+[![Desktop](Screenshots/screenshot-1-desktop.png)](Screenshots/screenshot-1-desktop.png)
+[![Sonora & Fastfetch](Screenshots/screenshot-2-sonora-fastfetch.png)](Screenshots/screenshot-2-sonora-fastfetch.png)
 
-[![Cava](14-Screenshots/screenshot-3-cava.png)](14-Screenshots/screenshot-3-cava.png)
-[![Flow](14-Screenshots/screenshot-4-flow.png)](14-Screenshots/screenshot-4-flow.png)
+[![Cava](Screenshots/screenshot-3-cava.png)](Screenshots/screenshot-3-cava.png)
+[![Flow](Screenshots/screenshot-4-flow.png)](Screenshots/screenshot-4-flow.png)
 
-[![Launcher](14-Screenshots/screenshot-6-launcher.png)](14-Screenshots/screenshot-6-launcher.png)
-[![Wallpaper gallery](14-Screenshots/screenshot-9-wallpapers.png)](14-Screenshots/screenshot-9-wallpapers.png)
+[![Launcher](Screenshots/screenshot-6-launcher.png)](Screenshots/screenshot-6-launcher.png)
+[![Wallpaper gallery](Screenshots/screenshot-9-wallpapers.png)](Screenshots/screenshot-9-wallpapers.png)
 
 <details>
 <summary>More screenshots</summary>
 
-[![Fastfetch & icons](14-Screenshots/screenshot-5-fastfetch-icons.png)](14-Screenshots/screenshot-5-fastfetch-icons.png)
-[![Calendar](14-Screenshots/screenshot-7-calendar.png)](14-Screenshots/screenshot-7-calendar.png)
+[![Fastfetch & icons](Screenshots/screenshot-5-fastfetch-icons.png)](Screenshots/screenshot-5-fastfetch-icons.png)
+[![Calendar](Screenshots/screenshot-7-calendar.png)](Screenshots/screenshot-7-calendar.png)
 
-[![Notification center](14-Screenshots/screenshot-8-notification-center.png)](14-Screenshots/screenshot-8-notification-center.png)
-[![Messaging](14-Screenshots/screenshot-10-messaging.png)](14-Screenshots/screenshot-10-messaging.png)
+[![Notification center](Screenshots/screenshot-8-notification-center.png)](Screenshots/screenshot-8-notification-center.png)
+[![Messaging](Screenshots/screenshot-10-messaging.png)](Screenshots/screenshot-10-messaging.png)
 
-[![Reddit](14-Screenshots/screenshot-11-reddit.png)](14-Screenshots/screenshot-11-reddit.png)
+[![Reddit](Screenshots/screenshot-11-reddit.png)](Screenshots/screenshot-11-reddit.png)
 
 </details>
 
@@ -65,7 +65,7 @@ The setup uses **Catppuccin Mocha**, with Lavender as the primary accent.
 | **Window Manager** | [Komorebi](https://github.com/LGUG2Z/komorebi) — tiling with a bsp-like layout |
 | **Desktop Bar** | [YASB](https://github.com/amnweb/yasb) — Catppuccin Mocha theme with wallpaper gallery |
 | **Window Borders** | [Tacky Borders](https://github.com/latentcat/tacky-borders) — colored window borders |
-| **System Mods** | [Windhawk](https://windhawk.net/) — translucent windows, custom corner radius, dock-like taskbar, start menu & notification center stylers (settings in [`04-windhawk/`](04-windhawk/)) |
+| **System Mods** | [Windhawk](https://windhawk.net/) — translucent windows, custom corner radius, dock-like taskbar, start menu & notification center stylers (settings in [`windhawk/`](windhawk/)) |
 | **Keybinds** | [whkd](https://github.com/LGUG2Z/whkd) — global keyboard shortcuts |
 | **Terminal** | [Windows Terminal](https://github.com/microsoft/terminal) with Catppuccin Mocha theme |
 | **Shell** | PowerShell + [Oh My Posh](https://ohmyposh.dev/) with Catppuccin Mocha Lavender theme |
@@ -78,7 +78,7 @@ The setup uses **Catppuccin Mocha**, with Lavender as the primary accent.
 | **Messaging** | [Discord](https://discord.com/) + [AyuGram](https://github.com/AyuGram/AyuGram4A) |
 | **YouTube** | [Flow](https://github.com/n-ce/Flow) |
 | **Font** | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/) |
-| **Wallpapers** | [`13-Catppuccin wallpapers/`](13-Catppuccin%20wallpapers/) — the full collection shown in the bar's wallpaper gallery |
+| **Wallpapers** | [`Catppuccin wallpapers/`](13-Catppuccin%20wallpapers/) — the full collection shown in the bar's wallpaper gallery |
 
 ## 📦 Installation
 
@@ -94,7 +94,7 @@ git clone https://github.com/scartoni/windots.git
 
 3. Install the corresponding applications and customization tools.
 
-4. Apply each configuration according to its application's instructions — for example, copy the files from `02-yasb/` to `%USERPROFILE%\.config\yasb\`, import the Windhawk mod settings from `04-windhawk/` in the mod's **Advanced** tab, and so on.
+4. Apply each configuration according to its application's instructions — for example, copy the files from `02-yasb/` to `%USERPROFILE%\.config\yasb\`, import the Windhawk mod settings from `windhawk/` in the mod's **Advanced** tab, and so on.
 
 > [!IMPORTANT]
 > Back up your existing configurations before applying these files. Some modifications may depend on your Windows version, installed applications, or additional customization tools.
