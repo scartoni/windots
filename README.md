@@ -39,6 +39,7 @@ My Windows 11 rice built around [Catppuccin Mocha](https://github.com/catppuccin
 | Audio Visualizer | [Cava](https://github.com/karlstav/cava) |
 | System Monitor | [btop](https://github.com/aristocratos/btop) |
 | Context Menu | [Nilesoft Shell](https://nilesoft.org/) |
+| File Explorer | [File Pilot](https://filepilot.tech) |
 
 | 📚 Other | ✨ Source |
 | --- | --- |
@@ -148,6 +149,14 @@ Context menu replacement.
 - Install [Nilesoft Shell](https://nilesoft.org/)
 - Replace `shell.nss` in the Nilesoft install folder with [`nilesoft/shell.nss`](nilesoft/shell.nss)
 - Restart explorer
+
+## 📁 File Pilot
+
+Fast file explorer, using the built-in Catppuccin Mocha color scheme.
+
+- Get it from [filepilot.tech](https://filepilot.tech)
+- Copy [`file-pilot/FPilot-Config.json`](file-pilot/FPilot-Config.json) to `%APPDATA%\Voidstar\FilePilot\`
+- Restart File Pilot
 
 ## 💬 Discord (Dorion)
 
