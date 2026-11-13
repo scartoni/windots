@@ -4,15 +4,15 @@
 
 ### My personal Windows rice & dotfiles
 
-A customized Windows 11 setup inspired by [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) with lavender accents, featuring a tiling workflow with [Komorebi](https://github.com/LGUG2Z/komorebi), a custom YASB bar, translucent windows and a cohesive Catppuccin aesthetic across the whole desktop.
+Windows 11 rice based on [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) with lavender accents. Komorebi tiling, custom YASB bar, translucent windows and Windhawk mods.
 
 ---
 
 ## ✨ About
 
-**Windots** is my personal collection of Windows rice configurations, dotfiles and customization tweaks, built around the beautiful [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) color palette with **Lavender** as the primary accent.
+**Windots** is my collection of Windows rice configs and dotfiles, built around the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) palette with **Lavender** as the main accent.
 
-The setup combines a dragon/samurai dark wallpaper, tiling window management with Komorebi, a floating dock-style taskbar styled with Windhawk mods, custom window borders via Tacky Borders, and a consistent visual style across terminal, bar, menus and file explorer.
+The wallpaper is a dark dragon/samurai artwork, the taskbar is styled to float like a dock, and the same colors are used across terminal, bar, context menu and file explorer.
 
 ## 🖼️ Screenshots
 
@@ -78,11 +78,11 @@ The setup uses **Catppuccin Mocha**, with Lavender as the primary accent.
 | **Messaging** | [Discord](https://discord.com/) + [AyuGram](https://github.com/AyuGram/AyuGram4A) |
 | **YouTube** | [Flow](https://github.com/n-ce/Flow) |
 | **Font** | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/) |
-| **Wallpapers** | [`Catppuccin wallpapers/`](13-Catppuccin%20wallpapers/) — the full collection shown in the bar's wallpaper gallery |
+| **Wallpapers** | [`Catppuccin wallpapers/`](Catppuccin%20wallpapers/) — the full collection shown in the bar's wallpaper gallery |
 
 ## 📦 Installation
 
-These are personal configurations rather than a universal installer.
+There's no installer here — these are my personal configs, so take what you need and adapt it.
 
 1. Clone the repository:
 
@@ -94,7 +94,7 @@ git clone https://github.com/scartoni/windots.git
 
 3. Install the corresponding applications and customization tools.
 
-4. Apply each configuration according to its application's instructions — for example, copy the files from `02-yasb/` to `%USERPROFILE%\.config\yasb\`, import the Windhawk mod settings from `windhawk/` in the mod's **Advanced** tab, and so on.
+4. Apply each configuration according to its application's instructions — for example, copy the files from `yasb/` to `%USERPROFILE%\.config\yasb\`, import the Windhawk mod settings from `windhawk/` in the mod's **Advanced** tab, and so on.
 
 > [!IMPORTANT]
 > Back up your existing configurations before applying these files. Some modifications may depend on your Windows version, installed applications, or additional customization tools.
@@ -109,7 +109,5 @@ git clone https://github.com/scartoni/windots.git
 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch) — system information tool.
 
 ---
-
-Made with 💜 and a little obsession over desktop customization.
 
 **@scartoni**
