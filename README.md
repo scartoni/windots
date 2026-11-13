@@ -1,113 +1,184 @@
-# 🌸 Windots
-
-[![Windots preview](Screenshots/screenshot-1-desktop.png)](Screenshots/screenshot-1-desktop.png)
-
-### My personal Windows rice & dotfiles
-
-Windows 11 rice based on [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) with lavender accents. Komorebi tiling, custom YASB bar, translucent windows and Windhawk mods.
-
----
-
-## ✨ About
-
-**Windots** is my collection of Windows rice configs and dotfiles, built around the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) palette with **Lavender** as the main accent.
-
-The wallpaper is a dark dragon/samurai artwork, the taskbar is styled to float like a dock, and the same colors are used across terminal, bar, context menu and file explorer.
-
-## 🖼️ Screenshots
+# 🌸 windots
 
 [![Desktop](Screenshots/screenshot-1-desktop.png)](Screenshots/screenshot-1-desktop.png)
-[![Sonora & Fastfetch](Screenshots/screenshot-2-sonora-fastfetch.png)](Screenshots/screenshot-2-sonora-fastfetch.png)
 
-[![Cava](Screenshots/screenshot-3-cava.png)](Screenshots/screenshot-3-cava.png)
-[![Flow](Screenshots/screenshot-4-flow.png)](Screenshots/screenshot-4-flow.png)
+[![Sonora & Fastfetch](Screenshots/screenshot-2-sonora-fastfetch.png)](Screenshots/screenshot-2-sonora-fastfetch.png) [![Cava](Screenshots/screenshot-3-cava.png)](Screenshots/screenshot-3-cava.png)
 
-[![Launcher](Screenshots/screenshot-6-launcher.png)](Screenshots/screenshot-6-launcher.png)
-[![Wallpaper gallery](Screenshots/screenshot-9-wallpapers.png)](Screenshots/screenshot-9-wallpapers.png)
+[![Launcher](Screenshots/screenshot-6-launcher.png)](Screenshots/screenshot-6-launcher.png) [![Wallpaper gallery](Screenshots/screenshot-9-wallpapers.png)](Screenshots/screenshot-9-wallpapers.png)
+
+My Windows 11 rice built around [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) with lavender accents — komorebi for tiling, a custom YASB bar and a bunch of Windhawk mods to make Windows behave.
 
 <details>
 <summary>More screenshots</summary>
 
+[![Flow](Screenshots/screenshot-4-flow.png)](Screenshots/screenshot-4-flow.png)
 [![Fastfetch & icons](Screenshots/screenshot-5-fastfetch-icons.png)](Screenshots/screenshot-5-fastfetch-icons.png)
+
 [![Calendar](Screenshots/screenshot-7-calendar.png)](Screenshots/screenshot-7-calendar.png)
-
 [![Notification center](Screenshots/screenshot-8-notification-center.png)](Screenshots/screenshot-8-notification-center.png)
-[![Messaging](Screenshots/screenshot-10-messaging.png)](Screenshots/screenshot-10-messaging.png)
 
+[![Messaging](Screenshots/screenshot-10-messaging.png)](Screenshots/screenshot-10-messaging.png)
 [![Reddit](Screenshots/screenshot-11-reddit.png)](Screenshots/screenshot-11-reddit.png)
 
 </details>
 
-## 🎨 Color Palette
+---
 
-The setup uses **Catppuccin Mocha**, with Lavender as the primary accent.
+## 📑 What I use
 
-| Color | Hex | Usage |
-| --- | --- | --- |
-| Base | `#1e1e2e` | Main background |
-| Mantle | `#181825` | Secondary backgrounds |
-| Crust | `#11111b` | Deep backgrounds |
-| Surface 0 | `#313244` | UI surfaces |
-| Surface 1 | `#45475a` | Borders and secondary elements |
-| Surface 2 | `#585b70` | Elevated surfaces |
-| Text | `#cdd6f4` | Primary text |
-| Subtext 0 | `#a6adc8` | Secondary text |
-| Lavender | `#b4befe` | Primary accent |
-| Blue | `#89b4fa` | Secondary accent |
-| Mauve | `#cba6f7` | Highlights |
-| Pink | `#f5c2e7` | Additional accents |
-| Green | `#a6e3a1` | Success and status indicators |
-
-## 🛠️ Setup
-
-| Component | Configuration |
+| 📚 Name | ✨ Source |
 | --- | --- |
-| **Window Manager** | [Komorebi](https://github.com/LGUG2Z/komorebi) — tiling with a bsp-like layout |
-| **Desktop Bar** | [YASB](https://github.com/amnweb/yasb) — Catppuccin Mocha theme with wallpaper gallery |
-| **Window Borders** | [Tacky Borders](https://github.com/latentcat/tacky-borders) — colored window borders |
-| **System Mods** | [Windhawk](https://windhawk.net/) — translucent windows, custom corner radius, dock-like taskbar, start menu & notification center stylers (settings in [`windhawk/`](windhawk/)) |
-| **Keybinds** | [whkd](https://github.com/LGUG2Z/whkd) — global keyboard shortcuts |
-| **Terminal** | [Windows Terminal](https://github.com/microsoft/terminal) with Catppuccin Mocha theme |
-| **Shell** | PowerShell + [Oh My Posh](https://ohmyposh.dev/) with Catppuccin Mocha Lavender theme |
-| **System Info** | [Fastfetch](https://github.com/fastfetch-cli/fastfetch) with custom ASCII logo |
-| **Audio Visualizer** | [Cava](https://github.com/karlstav/cava) with custom shaders |
-| **System Monitor** | [btop](https://github.com/aristocratos/btop) with Catppuccin Mocha theme |
-| **Context Menu** | [Nilesoft Shell](https://nilesoft.org/) — customized right-click menu |
-| **Browser** | [Zen Browser](https://zen-browser.app/) |
-| **Music Player** | [Sonora](https://github.com/sonorahq/sonora) |
-| **Messaging** | [Discord](https://discord.com/) + [AyuGram](https://github.com/AyuGram/AyuGram4A) |
-| **YouTube** | [Flow](https://github.com/n-ce/Flow) |
-| **Font** | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/) |
-| **Wallpapers** | [`Catppuccin wallpapers/`](Catppuccin%20wallpapers/) — the full collection shown in the bar's wallpaper gallery |
+| Window Manager | [Komorebi](https://github.com/LGUG2Z/komorebi) |
+| Status Bar | [YASB](https://github.com/amnweb/yasb) |
+| Window Borders | [Tacky Borders](https://github.com/latentcat/tacky-borders) |
+| Taskbar / System Mods | [Windhawk](https://windhawk.net/) |
+| Keybinds | [whkd](https://github.com/LGUG2Z/whkd) |
+| Terminal | [Windows Terminal](https://github.com/microsoft/terminal) |
+| Shell | PowerShell + [Oh My Posh](https://ohmyposh.dev/) |
+| System Fetch | [Fastfetch](https://github.com/fastfetch-cli/fastfetch) |
+| Audio Visualizer | [Cava](https://github.com/karlstav/cava) |
+| System Monitor | [btop](https://github.com/aristocratos/btop) |
+| Context Menu | [Nilesoft Shell](https://nilesoft.org/) |
 
-## 📦 Installation
+| 📚 Other | ✨ Source |
+| --- | --- |
+| Colorscheme | [Catppuccin Mocha](https://catppuccin.com) (lavender accent) |
+| Browser | [Zen Browser](https://zen-browser.app/) |
+| Music Player | [Sonora](https://github.com/sonorahq/sonora) |
+| Messaging | [Discord](https://discord.com/) + [AyuGram](https://github.com/AyuGram/AyuGram4A) |
+| YouTube | [Flow](https://github.com/n-ce/Flow) |
+| Font | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/) |
+| Wallpapers | [`Catppuccin wallpapers/`](Catppuccin%20wallpapers/) — full collection used by the bar's gallery widget |
 
-There's no installer here — these are my personal configs, so take what you need and adapt it.
+---
 
-1. Clone the repository:
+# ⚡ Details
 
-```
-git clone https://github.com/scartoni/windots.git
-```
+No installer here — copy what you need into the right spot and restart the app. All paths below assume `%USERPROFILE%` is your user folder.
 
-2. Browse the configuration files and identify the components you want to use.
+## 🪟 Komorebi
 
-3. Install the corresponding applications and customization tools.
+Tiling window manager for Windows.
 
-4. Apply each configuration according to its application's instructions — for example, copy the files from `yasb/` to `%USERPROFILE%\.config\yasb\`, import the Windhawk mod settings from `windhawk/` in the mod's **Advanced** tab, and so on.
+- Install [Komorebi](https://github.com/LGUG2Z/komorebi)
+- Copy `komorebi.json` and `komorebi.bar.json` from [`komorebi/`](komorebi/) to `%USERPROFILE%\`
+- Restart komorebi (`komorebic stop` → `komorebic start`)
+
+## 📊 YASB
+
+The status bar. My theme is Mocha with lavender, and the wallpapers widget pulls from a local folder.
+
+> [!NOTE]
+> `yasb_colors.css` is generated by YASB itself on first launch, so you won't find it in this repo.
+
+- Install [YASB](https://github.com/amnweb/yasb)
+- Copy `config.yaml` and `styles.css` from [`yasb/`](yasb/) to `%USERPROFILE%\.config\yasb\`
+- The wallpapers widget points to `%USERPROFILE%\Pictures\Catppuccin wallpapers` — change it if your folder lives somewhere else
+- Restart YASB
+
+## 🖼️ Tacky Borders
+
+Colored window borders that follow the tiling.
+
+- Install [Tacky Borders](https://github.com/latentcat/tacky-borders)
+- Copy `config.yaml` from [`tacky-borders/`](tacky-borders/) to `%USERPROFILE%\.config\tacky-borders\`
+- Restart it
+
+## 🦅 Windhawk
+
+Windows customization framework — this is where most of the "system" look comes from.
+
+My mod settings are in [`windhawk/`](windhawk/):
+
+| Mod | What it does |
+| --- | --- |
+| `translucent-windows` | acrylic on explorer/taskmgr |
+| `custom-corner-radius` | rounded corners |
+| `windows-11-taskbar-styler` | dock-style taskbar |
+| `taskbar-icon-size` | smaller taskbar icons |
+| `taskbar-tray-system-icon-tweaks` | tray icon tweaks |
+| `start-button-replacer` | custom start icon |
+| `windows-11-start-menu-styler` | start menu theme |
+| `windows-11-notification-center-styler` | notification center theme |
+
+- Install [Windhawk](https://windhawk.net/)
+- Install each mod above from the mod browser
+- Open the mod → **Advanced** tab → replace the settings with the JSON from [`windhawk/`](windhawk/)
+- Click **Save settings**
+
+## ⌨️ whkd
+
+Global keybinds that talk to komorebi.
+
+- Install [whkd](https://github.com/LGUG2Z/whkd)
+- Copy `whkdrc` from [`whkd/`](whkd/) to `%USERPROFILE%\.config\`
+
+## 🖥️ Terminal + PowerShell + Oh My Posh
+
+- Replace the contents of your Terminal `settings.json` with [`Terminal/settings.json`](Terminal/settings.json) (`%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\`)
+- Copy [`powershell/Microsoft.PowerShell_profile.ps1`](powershell/Microsoft.PowerShell_profile.ps1) to `%USERPROFILE%\Documents\PowerShell\`
+- Drop [`oh-my-posh/catppuccin_mocha_lavender.omp.json`](oh-my-posh/catppuccin_mocha_lavender.omp.json) anywhere you like and make sure the profile's `oh-my-posh init` line points to it
+
+## 🔍 Fastfetch
+
+System info with a custom ASCII logo.
+
+- Install [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- Copy `config.jsonc` and `ascii_mocha.txt` from [`fastfetch/`](fastfetch/) to `%USERPROFILE%\.config\fastfetch\`
+
+## 🎵 Cava
+
+Audio visualizer, running inside the terminal.
+
+- Install [Cava](https://github.com/karlstav/cava)
+- Copy everything from [`cava/`](cava/) (`config`, `themes/`, `shaders/`) to `%USERPROFILE%\.config\cava\`
+
+## 👾 btop
+
+System monitor.
+
+- Install [btop4win](https://github.com/aristocratos/btop)
+- Copy `btop.conf` from [`btop/`](btop/) over the one in your btop folder
+- Copy `themes/catppuccin_mocha.theme` to `btop/themes/`
+
+## 🖱️ Nilesoft Shell
+
+Context menu replacement.
+
+- Install [Nilesoft Shell](https://nilesoft.org/)
+- Replace `shell.nss` in the Nilesoft install folder with [`nilesoft/shell.nss`](nilesoft/shell.nss)
+- Restart explorer
+
+## 🎨 Color palette
+
+Catppuccin Mocha, lavender as the main accent. The hex values used across the configs:
+
+| Color | Hex |
+| --- | --- |
+| Base | `#1e1e2e` |
+| Mantle | `#181825` |
+| Crust | `#11111b` |
+| Surface 0 | `#313244` |
+| Surface 1 | `#45475a` |
+| Surface 2 | `#585b70` |
+| Text | `#cdd6f4` |
+| Subtext 0 | `#a6adc8` |
+| Lavender | `#b4befe` |
+| Blue | `#89b4fa` |
+| Mauve | `#cba6f7` |
+| Pink | `#f5c2e7` |
+| Green | `#a6e3a1` |
+
+---
 
 > [!IMPORTANT]
-> Back up your existing configurations before applying these files. Some modifications may depend on your Windows version, installed applications, or additional customization tools.
+> Back up your own configs before replacing anything. These files were made for my machine — some things (widget sizes, monitor layout, paths) may need a tweak on yours.
 
 ## 💜 Credits
 
-- [Catppuccin](https://github.com/catppuccin/catppuccin) — the color palette behind this setup.
-- [Komorebi](https://github.com/LGUG2Z/komorebi) & [whkd](https://github.com/LGUG2Z/whkd) — window management and keybinds.
-- [YASB](https://github.com/amnweb/yasb) — the desktop bar.
-- [Windhawk](https://windhawk.net/) — Windows customization framework.
-- [Oh My Posh](https://ohmyposh.dev/) — prompt customization for PowerShell.
-- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) — system information tool.
-
----
+- [Catppuccin](https://github.com/catppuccin/catppuccin) — the palette everything runs on
+- [Komorebi](https://github.com/LGUG2Z/komorebi) / [whkd](https://github.com/LGUG2Z/whkd) — tiling and keybinds
+- [YASB](https://github.com/amnweb/yasb) — the bar
+- [Windhawk](https://windhawk.net/) and its mod authors — the system-level tweaks
 
 **@scartoni**
