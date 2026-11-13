@@ -195,5 +195,7 @@ Catppuccin Mocha, lavender as the main accent. The hex values used across the co
 - [Komorebi](https://github.com/LGUG2Z/komorebi) / [whkd](https://github.com/LGUG2Z/whkd) — tiling and keybinds
 - [YASB](https://github.com/amnweb/yasb) — the bar
 - [Windhawk](https://windhawk.net/) and its mod authors — the system-level tweaks
+- [@MrDLingters](https://github.com/MrDLingters) — parts of this setup were taken from / inspired by his YASB themes and Windows 11 customization work
+- [@SleepyCatHey](https://github.com/SleepyCatHey) — this repo's structure was inspired by his [Ultimate-Win11-Setup](https://github.com/SleepyCatHey/Ultimate-Win11-Setup)
 
 **@scartoni**
